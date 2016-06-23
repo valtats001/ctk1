@@ -1,4 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_left" id="20" x="2" y="109"></block>
-  <block type="movement_forward" id="10" x="317" y="124"></block>
+  <block type="movement_forward" id="10" x="317" y="124">
+    <next>
+      <block type="robot_delay" id="155" inline="true">
+        <next>
+          <block type="movement_left" id="193"></block>
+        </next>
+      </block>
+    </next>
+  </block>
 </xml>
